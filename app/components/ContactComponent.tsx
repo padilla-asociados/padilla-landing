@@ -2,42 +2,39 @@
 
 export default function ContactComponent() {
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center px-6 py-20 bg-[#0b2440] overflow-hidden"
+    <section className="relative min-h-screen w-full flex items-center justify-center px-6 py-20 bg-[#0D2B4D] overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(135deg, rgba(9,26,48,0.88) 0%, rgba(11,36,64,0.72) 45%, rgba(11,36,64,0.85) 100%), url('/imagenes/hero-bg.jpg')`,
+        backgroundImage: `linear-gradient(135deg, rgba(13,43,77,0.92) 0%, rgba(13,43,77,0.86) 45%, rgba(13,43,77,0.94) 100%), url('/hero-bg.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center bottom'
       }}
     >
-      <div className="max-w-2xl mx-auto text-center relative z-10" data-reveal>
-        <img
-          src="/imagenes/logo.png"
-          alt="Padilla Chávez & Asociados"
-          className="w-[min(55vw,420px)] mx-auto mb-8"
-        />
+      <div className="max-w-2xl mx-auto text-center relative z-10">
+        <div className="logo-halo">
+          <img
+            src="/logo.png"
+            alt="Padilla Chávez & Asociados"
+            className="logo-highlight w-[min(62vw,480px)] mx-auto mb-8"
+          />
+        </div>
 
         <p className="text-white text-2xl md:text-3xl font-serif italic mb-8">
           &quot;Estructura organizacional que impulsa el futuro.&quot;
         </p>
 
-        <p className="text-[#7fb2db] text-sm tracking-widest uppercase mb-8">
+        <p className="text-[#6D8FB1] text-sm font-semibold tracking-widest uppercase mb-8">
           Contáctanos para más información
         </p>
 
-        <div
-          className="flex flex-col md:flex-row justify-center items-center gap-12"
-          data-reveal
-          style={{ '--reveal-delay': '0.2s' } as React.CSSProperties}
+        <a 
+          href="https://wa.me/523319544459?text=Hola%20me%20gustaría%20conocer%20más%20sobre%20sus%20servicios"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition transform hover:scale-105"
         >
-          <div className="text-center">
-            <p className="text-[#e4eaf0] text-lg font-semibold">33 1954 4459</p>
-            <p className="text-[#e4eaf0] text-sm">81 2642 0206</p>
-          </div>
-          <div className="text-center">
-            <p className="text-[#e4eaf0] text-sm">Col. Cañadas de San Lorenzo</p>
-            <p className="text-[#e4eaf0] text-sm">Zapopan, Jalisco, México</p>
-          </div>
-        </div>
+          <img src="/whatsapp.png" alt="WhatsApp" className="w-6 h-6" />
+          Contáctanos
+        </a>
       </div>
     </section>
   );

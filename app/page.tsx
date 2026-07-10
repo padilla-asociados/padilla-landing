@@ -7,12 +7,14 @@ import AlliesComponent from './components/AlliesComponent';
 import ServicesComponent from './components/ServicesComponent';
 import ContactComponent from './components/ContactComponent';
 import { useScrollReveal } from './hooks/useScrollReveal';
+import WhatsAppButton from './components/WhatsAppButton';
 
 export default function Home() {
   useScrollReveal();
 
   return (
     <main>
+      <WhatsAppButton />
       <HeroComponent />
       <AboutComponent />
       <TeamComponent />

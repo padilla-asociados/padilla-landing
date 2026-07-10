@@ -2,11 +2,11 @@
 
 export default function ValoresPage() {
   return (
-    <main className="bg-[#f6f3ec] min-h-screen pt-20 pb-20">
+    <main className="bg-[#F2F4F7] min-h-screen pt-20 pb-20">
       <div className="max-w-4xl mx-auto px-6">
-        <a href="/" className="text-[#2c5f8a] hover:underline mb-8 inline-block">← Volver</a>
+        <a href="/" className="text-[#2F5B7C] hover:underline mb-8 inline-block">← Volver</a>
         
-        <h1 className="text-5xl font-serif text-[#0b2440] mb-8">Valores</h1>
+        <h1 className="text-5xl font-serif text-[#0D2B4D] mb-8">Valores</h1>
         
         <div className="space-y-8">
           {[
@@ -17,9 +17,9 @@ export default function ValoresPage() {
             { title: 'Acompañamiento cercano', desc: 'No solo asesoramos; caminamos junto a nuestros clientes en cada etapa de su evolución.' },
             { title: 'Evolución y cambio', desc: 'Impulsamos organizaciones capaces de adaptarse, transformarse y consolidarse en entornos dinámicos.' },
           ].map((valor, idx) => (
-            <div key={idx} className="border-l-4 border-[#2c5f8a] pl-6">
-              <h3 className="text-2xl font-serif text-[#0b2440] mb-3">{valor.title}</h3>
-              <p className="text-[#3d4a56] text-lg">{valor.desc}</p>
+            <div key={idx} className="border-l-4 border-[#2F5B7C] pl-6">
+              <h3 className="text-2xl font-serif font-semibold text-[#0D2B4D] mb-3">{valor.title}</h3>
+              <p className="text-[#4A4A4A] text-lg">{valor.desc}</p>
             </div>
           ))}
         </div>
