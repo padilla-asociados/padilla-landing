@@ -7,12 +7,12 @@ export default function HeroComponent() {
         <img
           src="/hero-bg.jpg"
           alt="background"
-          className="w-full h-full object-cover opacity-25"
+          className="w-full h-full object-cover opacity-45"
         />
         <div
           className="absolute inset-0"
           style={{
-            background: 'radial-gradient(circle at center, rgba(13,43,77,0.55) 0%, rgba(13,43,77,0.88) 65%, rgba(13,43,77,0.96) 100%)',
+            background: 'radial-gradient(circle at center, rgba(13,43,77,0.3) 0%, rgba(13,43,77,0.55) 65%, rgba(13,43,77,0.7) 100%)',
           }}
         />
       </div>
