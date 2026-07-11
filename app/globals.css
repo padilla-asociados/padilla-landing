@@ -66,21 +66,5 @@ body {
 }
 
 .logo-highlight {
-  filter: drop-shadow(0 0 20px rgba(242, 244, 247, 0.55)) drop-shadow(0 10px 30px rgba(0, 0, 0, 0.45));
-}
-
-.logo-halo {
-  position: relative;
-  display: inline-block;
-}
-
-.logo-halo::before {
-  content: '';
-  position: absolute;
-  inset: -40%;
-  background: radial-gradient(circle, rgba(242, 244, 247, 0.4) 0%, rgba(242, 244, 247, 0.08) 55%, rgba(242, 244, 247, 0) 75%);
-  border-radius: 50%;
-  filter: blur(4px);
-  z-index: -1;
-  pointer-events: none;
+  filter: brightness(1.25) saturate(1.2) contrast(1.02);
 }

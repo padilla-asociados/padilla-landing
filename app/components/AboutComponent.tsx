@@ -4,10 +4,9 @@ import Link from 'next/link';
 
 export default function AboutComponent() {
   return (
-    <section className="relative bg-[#F2F4F7] px-6 py-20 overflow-hidden">
+    <section id="quienes-somos" className="relative bg-[#F2F4F7] px-6 py-20 overflow-hidden">
       <div className="max-w-[1100px] mx-auto relative z-10">
         <div className="mb-8" data-reveal>
-          <p className="text-[#2F5B7C] text-sm font-semibold tracking-widest uppercase mb-4">Despacho de estructuración corporativa</p>
           <h2 className="text-4xl md:text-5xl font-serif text-[#0D2B4D] mb-6">¿Quiénes Somos?</h2>
         </div>
         

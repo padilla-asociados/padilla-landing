@@ -2,7 +2,7 @@
 
 export default function ServicesComponent() {
   return (
-    <section className="relative bg-[#0D2B4D] px-6 py-20 overflow-hidden">
+    <section id="servicios" className="relative bg-[#0D2B4D] px-6 py-20 overflow-hidden">
       <div className="max-w-[1180px] mx-auto relative z-10">
         <div className="text-center mb-12" data-reveal>
           <p className="text-[#6D8FB1] text-sm font-semibold tracking-widest uppercase mb-4">Lo que hacemos</p>
