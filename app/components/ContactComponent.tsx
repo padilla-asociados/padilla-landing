@@ -2,7 +2,7 @@
 
 import { useInView } from './useInView';
 
-function ContactElement({ children, delay = 0 }) {
+function ContactElement({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const [ref, isInView] = useInView();
 
   return (
