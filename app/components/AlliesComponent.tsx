@@ -26,14 +26,14 @@ export default function AlliesComponent() {
           </div>
           <div>
             <img 
-              src="/johana.png" 
+              src="/Johana.png" 
               alt="Johana" 
               className="w-full h-auto rounded-lg"
             />
           </div>
           <div>
             <img 
-              src="/julio.png" 
+              src="/Julio.png" 
               alt="Julio" 
               className="w-full h-auto rounded-lg"
             />
