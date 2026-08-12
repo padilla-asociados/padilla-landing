@@ -32,7 +32,7 @@ export default function ClientsComponent() {
   ];
 
   return (
-    <section className="relative bg-[#f6f3ec] px-6 py-20 overflow-hidden">
+    <section id="clientes" className="relative bg-[#f6f3ec] px-6 py-20 overflow-hidden">
       <div className="max-w-[1100px] mx-auto relative z-10">
         <div ref={ref} className="text-center mb-16">
           <p className={`text-[#2c5f8a] text-sm tracking-widest uppercase mb-4 transition-all duration-600 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Empresas que confían en nosotros</p>

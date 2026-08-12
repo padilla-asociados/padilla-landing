@@ -8,6 +8,7 @@ const SECTIONS = [
   { id: 'equipo', label: 'Nuestro Equipo' },
   { id: 'aliados', label: 'Aliados Estratégicos' },
   { id: 'servicios', label: 'Servicios' },
+  { id: 'clientes', label: 'Nuestros Clientes' },
   { id: 'contacto', label: 'Contacto' },
 ];
 
