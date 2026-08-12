@@ -2,7 +2,7 @@
 
 import { useInView } from './useInView';
 
-function AllyCard({ image, name }) {
+function AllyCard({ image, name }: { image: string; name: string }) {
   const [ref, isInView] = useInView();
 
   return (
