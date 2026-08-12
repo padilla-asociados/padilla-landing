@@ -2,7 +2,7 @@
 
 import { useInView } from './useInView';
 
-function ClientLogo({ logo, name }) {
+function ClientLogo({ logo, name }: { logo: string; name: string }) {
   const [ref, isInView] = useInView();
 
   return (
