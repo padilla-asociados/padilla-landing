@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useInView } from './useInView';
 
-function AboutCard({ href, title, desc, idx }) {
+function AboutCard({ href, title, desc, idx }: { href: string; title: string; desc: string; idx: number }) {
   const [ref, isInView] = useInView();
 
   return (
