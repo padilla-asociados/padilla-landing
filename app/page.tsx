@@ -9,6 +9,7 @@ import ContactComponent from './components/ContactComponent';
 import { useScrollReveal } from './hooks/useScrollReveal';
 import WhatsAppButton from './components/WhatsAppButton';
 import NavMenu from './components/NavMenu';
+import ClientsComponent from './components/ClientsComponent';
 
 export default function Home() {
   useScrollReveal();
@@ -22,7 +23,8 @@ export default function Home() {
       <TeamComponent />
       <AlliesComponent />
       <ServicesComponent />
+      <ClientsComponent />
       <ContactComponent />
-    </main>
+      </main>
   );
 }

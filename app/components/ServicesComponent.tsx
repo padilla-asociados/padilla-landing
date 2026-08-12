@@ -17,7 +17,7 @@ export default function ServicesComponent() {
             { title: 'Derecho Corporativo', items: ['Elaboración de estatutos', 'Constitución de sociedades', 'Protocolización de actas', 'Disolución y liquidación'] },
             { title: 'Estructura Organizacional', items: ['Diagnóstico integral', 'Diseño de organigramas', 'Descriptivos de puesto', 'Elaboración de manuales'] },
             { title: 'Administración de RRHH', items: ['Reclutamiento estratégico', 'Administración laboral', 'Tabuladores salariales', 'Gestión de clima laboral'] },
-            { title: 'Cumplimiento Legal', items: ['Elaboración de contratos', 'Prevención de contingencias', 'Gestión de trámites'] },
+            {title: 'Cumplimiento Legal Laboral', items: ['Contratos laborales', 'Litigio laboral', 'Auditorías laborales', 'Terminaciones y finiquitos', 'Reglamento Interior de Trabajo'] },
             { title: 'Servicios Contables', items: ['Contabilidad general', 'Cálculo de impuestos', 'Facturación electrónica', 'Administración de nómina'] },
           ].map((service, idx) => (
             <div
