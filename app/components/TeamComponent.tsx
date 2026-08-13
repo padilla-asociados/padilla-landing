@@ -2,7 +2,7 @@
 
 import { useInView } from './useInView';
 
-function TeamMember({ image, name }) {
+function TeamMember({ image, name }: { image: string; name: string }) {
   const [ref, isInView] = useInView();
 
   return (
