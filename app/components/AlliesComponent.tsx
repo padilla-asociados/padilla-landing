@@ -25,12 +25,10 @@ export default function AlliesComponent() {
   const allies = [
     { name: 'Laura', image: '/laura.png' },
     { name: 'Jorge', image: '/jorge.png' },
-    { name: 'Johana', image: '/Johana.png' },
-    { name: 'Julio', image: '/Julio.png' },
   ];
 
   return (
-    <section className="relative bg-gradient-to-b from-[#0b2440] to-[#0b2440] px-6 py-20 overflow-hidden">
+    <section id="aliados" className="relative bg-gradient-to-b from-[#0b2440] to-[#0b2440] px-6 py-20 overflow-hidden">
       <div className="max-w-[1180px] mx-auto relative z-10">
         <div ref={ref} className="text-center mb-12">
           <p className={`text-[#7fb2db] text-sm tracking-widest uppercase mb-4 transition-all duration-600 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Nuestros Aliados</p>
