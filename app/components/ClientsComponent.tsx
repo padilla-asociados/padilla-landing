@@ -38,7 +38,7 @@ export default function ClientsComponent() {
           <p className={`text-[#2c5f8a] text-sm tracking-widest uppercase mb-4 transition-all duration-600 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Empresas que confían en nosotros</p>
           <h2 className={`text-4xl md:text-5xl font-serif text-[#0b2440] mb-8 transition-all duration-600 delay-100 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>Nuestros Clientes</h2>
           <p className={`text-lg text-[#3d4a56] max-w-2xl mx-auto leading-relaxed transition-all duration-600 delay-200 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            Hemos acompañado a empresas de diversos sectores en su estructuración, transformación y crecimiento.
+            Hemos acompañado a empresas de diversos sectores en su estructura, transformación y crecimiento.
           </p>
         </div>
 
